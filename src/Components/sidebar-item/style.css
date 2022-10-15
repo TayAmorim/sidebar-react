@@ -1,0 +1,36 @@
+.open {
+  display: flex;
+  gap: 13px;
+  color: var(--dark-green);
+  font-size: 15px;
+  margin-top: 1.5rem;
+  transition: all 0.3s;
+}
+
+.open:hover {
+  background-color: var(--light-green);
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.text-transition {
+  opacity: 1;
+  animation: text-transition 0.3s linear forwards;
+}
+
+.text-hide {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+@keyframes text-transition {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

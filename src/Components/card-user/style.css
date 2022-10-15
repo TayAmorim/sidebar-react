@@ -1,0 +1,40 @@
+.cardUser {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-green);
+  padding: 8px 14px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar img {
+  margin-right: 9px;
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.user-info h2 {
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--dark-green);
+}
+
+.user-info p {
+  font-size: 12px;
+}
+
+.icon-user {
+  width: 22px;
+  display: flex;
+  align-items: center;
+}
